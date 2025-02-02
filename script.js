@@ -27,7 +27,7 @@ const themeToggle = document.getElementById("themeToggle");
         const resultDiv = document.getElementById("result");
         resultDiv.innerHTML = `
           <img src="${tik.result.data.author.avatar}"" alt="Foto Author">          
-    
+          <p><strong>Author:</strong> ${data.result.author}</p>
           <p><strong>Judul:</strong> ${data.result.title}</p>
           <a href="${data.result.nowm}" target="_blank" download>
             <button>Unduh Video</button>           

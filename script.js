@@ -24,7 +24,7 @@ document.getElementById("downloadButton").addEventListener("click", async () => 
     const metaResponse = await fetch(`https://website-restapii.vercel.app/tiktok?url=${encodeURIComponent(url)}`, {
       method: 'GET',
       headers: {
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
         'Accept': 'application/json'
       }
     });
@@ -34,7 +34,7 @@ document.getElementById("downloadButton").addEventListener("click", async () => 
     const response = await fetch(`https://website-restapii.vercel.app/tiktokdll?url=${encodeURIComponent(url)}`, {
       method: 'GET',
       headers: {
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
+       'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
         'Accept': 'application/json'
       }
     });

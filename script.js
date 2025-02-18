@@ -57,7 +57,7 @@ document.getElementById("downloadButton").addEventListener("click", async () => 
         <button>Unduh Video</button>           
       </a>
       
-      <a href="${data.result.audio}" target="_blank" download>
+      <a href="${tik.result.data.music.play}" target="_blank" download>
         <button>Unduh Audio</button>
       </a>
       
